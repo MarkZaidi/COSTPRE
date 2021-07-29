@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ## Training
 
-First prepare the training images, run
+First, to prepare the training images, run:
 
 ```bash
 cd data
@@ -42,7 +42,7 @@ python img_prep.py --source-folder path_to_source --target-folder path_to_target
 cd -
 ```
 
-To train the model, simply run
+To train the model, run:
 
 ```bash
 # request excution permission for the first time
@@ -51,7 +51,7 @@ chmod +x train.sh
 ./train.sh
 ```
 
-Be aware that you can specific a image to plot during training by setting the `--test-img` argument in `train.sh`.
+Be aware that you can specify an image to plot during training by setting the `--test-img` argument in `train.sh`.
 
 ## Inference
 
